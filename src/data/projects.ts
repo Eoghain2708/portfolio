@@ -14,6 +14,33 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Shift scraper",
+    github: ["https://github.com/Eoghain2708/shifts"],
+    description: `
+    A Ruby scraper which reverse engineers an undocumented API (from my workplace) and uses it to scrape useful data about the current week
+    and the following week's rotas. The scraper auto-logs in to the roster website with environment variables and saves a JSON token in
+    a cache for future requests, then accesses the JSON of rota page via the API, which contains all employee shifts for the week. This
+    is packaged into a CLI app which is on PATH and can be called from anywhere on the device. Users can call a variety of commands, e.g
+    "shifts whosin tomorrow", "shifts hours me nextweek", as well as "shifts willsee (name1) (name2) thisweek/nextweek" to find shifts in
+    common.
+    `,
+    tools: "Ruby"
+  },
+  {
+    id: 3,
+    name: "Knowledge base",
+    github: ["https://github.com/Eoghain2708/knowledge-base"],
+    description: `
+    A knowledge base written with a Rails API, React frontend and PostgreSQL database in which the user can create categories and notes within
+    them for a combined, centralised knowledge base. Uses Ollama on the backend to provide embedded vectors on each note, which in turn supports an
+    AI generated, site-wide search of notes, meaning that when a user searches their knowledge base, they can type general requests and
+    get a host of notes related to that request. The idea is to have a mixture of notes, offline documentation, anything useful at all, and be able to
+    search it all with the power of AI Front end functionality is currently a work in progress, but Rails endpoints are functional.
+    `,
+    tools: "Ruby/Rails, React/TS, PostgreSQL"
+  },
+  {
+    id: 4,
     name: "Workout API",
     github: ["https://github.com/Eoghain2708/workout-library"],
     description: `
@@ -26,7 +53,7 @@ export const projects = [
     tools: "Java, Maven"
   },
   {
-    id: 3,
+    id: 5,
     name: "Quantity surveyor scraper",
     github: ["https://github.com/Eoghain2708/qs_scraper", "https://github.com/Eoghain2708/scraper-with-frontend"],
     
@@ -40,7 +67,7 @@ export const projects = [
     tools: "Ruby, React"
   },
   {
-    id: 4,
+    id: 6,
     name: "Hotel Room Processor, Uni Exam",
     github: ["https://github.com/Eoghain2708/hotel-room-processor"],
     description: `
@@ -50,7 +77,7 @@ export const projects = [
     tools: "Java"
   },
   {
-    id: 5,
+    id: 7,
     name: "Chess gameplay analysis (unfinished)",
     github: ["https://github.com/Eoghain2708/chess-data-analysis"],
     description: `
