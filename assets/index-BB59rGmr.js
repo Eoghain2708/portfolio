@@ -58,7 +58,7 @@ Error generating stack: `+e.message+`
         duration-150
         hover:border-purple-500/50
         hover:shadow-2xl
-      `,children:[(0,p.jsx)(`div`,{className:`mb-5`,children:(0,p.jsx)(`h2`,{className:`text-2xl font-bold tracking-tight`,children:e})}),(0,p.jsx)(`p`,{className:`mb-6 leading-7 text-zinc-400`,children:n}),(0,p.jsx)(`div`,{className:`mb-8 flex flex-wrap gap-2`,children:r.split(`,`).map(e=>(0,p.jsx)(`span`,{className:`
+      `,children:[(0,p.jsx)(`div`,{className:`mb-5`,children:(0,p.jsx)(`h2`,{className:`text-2xl font-bold tracking-tight text-purple-400`,children:e})}),(0,p.jsx)(`p`,{className:`mb-6 leading-7 text-zinc-400`,children:n}),(0,p.jsx)(`div`,{className:`mb-8 flex flex-wrap gap-2`,children:r.split(`,`).map(e=>(0,p.jsx)(`span`,{className:`
               rounded-full
               border
               border-zinc-700
